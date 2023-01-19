@@ -1,7 +1,12 @@
 import "./App.css";
+import ProfileCard from './components/ProfileCard'
 
 function App() {
-  return <div className="App"></div>;
+  return (
+    <>
+    <ProfileCard/>
+    </>
+  )
 }
 
 export default App;
