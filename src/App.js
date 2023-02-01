@@ -1,12 +1,13 @@
 import "./App.css";
-import ProfileCard from './components/ProfileCard'
-
+import Header from "./components/Header";
+import ProfileCard from "./components/ProfileCard";
 function App() {
   return (
-    <>
-    <ProfileCard/>
-    </>
-  )
+    <div className="app" id="background">
+      <Header />
+      <ProfileCard />
+    </div>
+  );
 }
 
 export default App;
