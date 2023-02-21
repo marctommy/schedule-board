@@ -49,13 +49,3 @@
   justify-content: center;
   align-items: center;
 }
-
-#background {
-  background: rgb(185, 213, 174);
-  background: linear-gradient(
-    236deg,
-    rgba(185, 213, 174, 1) 0%,
-    rgba(9, 118, 121, 0.5844931722689075) 36%,
-    rgba(0, 212, 255, 1) 100%
-  );
-}

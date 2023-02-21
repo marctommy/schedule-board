@@ -1,5 +1,9 @@
 import React, { useState, useEffect } from "react";
-import { format } from "date-fns";
+import clock from "../assets/uhrzeit.png";
+import calendar from "../assets/kalender.png";
+import logo from "../assets/transparent_2.png";
+
+import styles from "./Header.module.css";
 
 export const DateTime = () => {
   const options = { weekday: "long" };
@@ -14,13 +18,23 @@ export const DateTime = () => {
   });
 
   return (
-    <div>
-      <p>Uhrzeit: {date.toLocaleTimeString("de-DE")}</p>
-      <p>Tag: {new Intl.DateTimeFormat("de-DE", options).format(date)}</p>
-      {/* <p>
-        Datum:
-        {(new Intl.DateTimeFormat("de-DE", options).format(date), "mm/dd/yyyy")}
-      </p> */}
+    <div className="bold-text">
+      <img className={styles.logo} src={logo} alt="logo" />
+
+      <div>
+        {" "}
+        <p>
+          <img className={styles.clock} src={calendar} alt="clock" />
+          Heute ist {new Intl.DateTimeFormat("de-DE", options).format(
+            date
+          )}{" "}
+        </p>
+        <p className="very-bold-text">
+          {" "}
+          <img className={styles.clock} src={clock} alt="clock" />
+          {date.toLocaleTimeString([], { timeStyle: "short" })} Uhr
+        </p>{" "}
+      </div>
     </div>
   );
 };
