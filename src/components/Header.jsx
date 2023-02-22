@@ -5,7 +5,7 @@ import DateTime from "./DateTime";
 
 export default function Header() {
   return (
-    <div>
+    <div className={styles.header}>
       <div className={styles.time}>
         <DateTime />
       </div>

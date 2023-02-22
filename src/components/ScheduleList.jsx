@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Schedulecard from "./ScheduleCard";
+import ScheduleCard from "./ScheduleCard";
 import Select from "react-select";
 import makeAnimated from "react-select/animated";
 import { v4 as uuidv4 } from "uuid";
@@ -10,10 +10,14 @@ export default function ScheduleList({ value, schedule }) {
   const [selected, setSelected] = useState([]);
   const [toggle, setToggle] = useState("");
 
-  const filteredList = schedule.filter((item) => item.title === value);
-  const options = filteredList.map((item) => {
-    return { value: item.name, label: item.name, ...item };
+  const options = schedule.map((item) => {
+    return {
+      value: item.name + item.event,
+      label: item.name + item.event,
+      ...item,
+    };
   });
+  console.log("options", options);
 
   const handleToggleOpen = (e) => {
     setToggle(e.target.value);
@@ -42,8 +46,8 @@ export default function ScheduleList({ value, schedule }) {
             <button onClick={() => setToggle("")}>auswählen</button>
           </div>
         )}
-        <div className="teacher-card-wrapper">
-          <Schedulecard items={selected} key={uuidv4()} />
+        <div>
+          <ScheduleCard items={selected} key={uuidv4()} />
         </div>
       </div>
     </center>

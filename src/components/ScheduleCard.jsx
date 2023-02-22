@@ -6,7 +6,8 @@ export default function Schedulecard({ items }) {
     <>
       {items.map((item) => (
         <div>
-          <p className="text-xl">{item.name}</p>
+          <p className="text-xl">{item.name} </p>
+          <p> {item.event}</p>
         </div>
       ))}
     </>

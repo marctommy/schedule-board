@@ -49,7 +49,7 @@ img {
 
 .selector {
   margin: 10px;
-  width: 60%;
+  width: 100%;
 }
 
 .text-xl {
@@ -73,4 +73,5 @@ img {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  align-items: center;
 }
