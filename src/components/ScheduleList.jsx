@@ -9,6 +9,7 @@ const animatedComponents = makeAnimated();
 export default function ScheduleList({ value, schedule }) {
   const [selected, setSelected] = useState([]);
   const [toggle, setToggle] = useState("");
+  const [getSelectedClasses, setGetSelectedItems] = useState([]);
 
   const options = schedule.map((item) => {
     return {
@@ -17,10 +18,15 @@ export default function ScheduleList({ value, schedule }) {
       ...item,
     };
   });
-  console.log("options", options);
 
   const handleToggleOpen = (e) => {
     setToggle(e.target.value);
+  };
+
+  const handleSubmit = () => {
+    localStorage.setItem("selected", JSON.stringify(selected));
+    setToggle("");
+    console.log("selected", selected);
   };
 
   return (
@@ -43,7 +49,7 @@ export default function ScheduleList({ value, schedule }) {
               options={options}
               onChange={(items) => setSelected(items)}
             />
-            <button onClick={() => setToggle("")}>auswählen</button>
+            <button onClick={handleSubmit}>auswählen</button>
           </div>
         )}
         <div>

@@ -19,9 +19,21 @@
 
 .footer {
   color: rgb(255, 255, 255);
-  padding-top: 300px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding-top: 50px;
+  padding-right: 140px;
+  font-size: 30px;
 }
 
 .container {
   padding-top: 30px;
+}
+
+.paperplane {
+  bottom: 0;
+  width: 30%;
+  height: 30%;
+  position: absolute;
 }

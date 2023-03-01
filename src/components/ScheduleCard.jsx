@@ -5,9 +5,15 @@ export default function Schedulecard({ items }) {
   return (
     <>
       {items.map((item) => (
-        <div>
-          <p className="text-xl">{item.name} </p>
-          <p> {item.event}</p>
+        <div className="schedule-list">
+          <div className="schedule-item">
+            {" "}
+            <div className="header text-xl">
+              {" "}
+              {item.name}
+              <p>Uhrzeit: {item.event} Uhr </p>
+            </div>
+          </div>
         </div>
       ))}
     </>

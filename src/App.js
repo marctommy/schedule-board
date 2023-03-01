@@ -65,8 +65,6 @@ function App() {
         ) : null}
       </div>
       {/*  */}
-
-      <Footer />
     </>
   );
 }

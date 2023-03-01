@@ -1,10 +1,7 @@
 import React from "react";
 import "./TeacherCard.css";
-import { useEffect, useState } from "react";
 
-export default function TeacherCard({ items, getSelectedItems }) {
-  const [savedItems, setSavedItems] = useState([items]);
-
+export default function TeacherCard({ items }) {
   return (
     <>
       {items.map((item) => (
