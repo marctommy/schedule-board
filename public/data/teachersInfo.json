@@ -1,0 +1,41 @@
+[
+  {
+    "name": "Lotte",
+    "title": "Sozialarbeiter*innen"
+  },
+  {
+    "name": "Marie",
+    "title": "Sozialarbeiter*innen"
+  },
+  {
+    "name": "Franzi",
+    "title": "Dozent*innen",
+    "subject": "Mathe, Bio"
+  },
+  {
+    "name": "Kai",
+    "title": "Dozent*innen",
+    "subject": "Mathe, PW"
+  },
+  {
+    "name": "Benny",
+    "title": "Dozent*innen",
+    "subject": "Mathe, PW"
+  },
+  {
+    "name": "Caro",
+    "title": "Dozent*innen"
+  },
+  {
+    "name": "Clara",
+    "title": "Dozent*innen"
+  },
+  {
+    "name": "Eike",
+    "title": "Dozent*innen"
+  },
+  {
+    "name": "Brian",
+    "title": "Dozent*innen"
+  }
+]
