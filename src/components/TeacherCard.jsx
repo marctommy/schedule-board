@@ -11,6 +11,7 @@ export default function TeacherCard({ items }) {
             src={require(`../assets/${item.name}.jpg`)}
             alt={item.name}
           /> */}
+          <p>Hallo </p>
           <p className="text-xl">{item.name}</p>
           <p>{item.subject}</p>
         </div>
