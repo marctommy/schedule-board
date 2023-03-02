@@ -6,11 +6,11 @@ export default function TeacherCard({ items }) {
     <>
       {items.map((item) => (
         <div className="card-container">
-          <img
+          {/* <img
             className="img-container"
             src={require(`../assets/${item.name}.jpg`)}
             alt={item.name}
-          />
+          /> */}
           <p className="text-xl">{item.name}</p>
           <p>{item.subject}</p>
         </div>
@@ -18,4 +18,3 @@ export default function TeacherCard({ items }) {
     </>
   );
 }
-// conditional rendering
