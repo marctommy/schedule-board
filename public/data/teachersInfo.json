@@ -1,41 +1,62 @@
 [
   {
     "name": "Lotte",
-    "title": "Sozialarbeiter*innen"
+    "title": "Sozialarbeiter*innen",
+    "url": "https://res.cloudinary.com/dsn2mqihi/image/upload/v1682070431/streetcollege/lotte_screen_q1eiqg.png"
   },
   {
     "name": "Marie",
-    "title": "Sozialarbeiter*innen"
+    "title": "Sozialarbeiter*innen",
+    "url": "https://res.cloudinary.com/dsn2mqihi/image/upload/v1682070436/streetcollege/marie_screen_cuseov.png"
   },
   {
-    "name": "Franzi",
+    "name": "Muriel",
     "title": "Dozent*innen",
-    "subject": "Mathe, Bio"
+    "subject": "Mathe, Bio",
+    "url": "https://res.cloudinary.com/dsn2mqihi/image/upload/v1682070438/streetcollege/muriel_screen_bqzrvn.png"
   },
   {
     "name": "Kai",
     "title": "Dozent*innen",
-    "subject": "Mathe, PW"
+    "subject": "Mathe, PW",
+    "url": "https://res.cloudinary.com/dsn2mqihi/image/upload/v1682070430/streetcollege/kai_screen_q5yyjc.png"
   },
   {
     "name": "Benny",
     "title": "Dozent*innen",
-    "subject": "Mathe, PW"
+    "subject": "Mathe, PW",
+    "url": "https://res.cloudinary.com/dsn2mqihi/image/upload/v1682071105/streetcollege/benny_screen_dfaan4.png"
+  },
+  {
+    "name": "Johanna",
+    "title": "Dozent*innen",
+    "subject": "Mathe, PW",
+    "url": "https://res.cloudinary.com/dsn2mqihi/image/upload/v1682070436/streetcollege/johanna_screen_xzio1v.png"
+  },
+  {
+    "name": "Anna",
+    "title": "Dozent*innen",
+    "subject": "Mathe, PW",
+    "url": "https://res.cloudinary.com/dsn2mqihi/image/upload/v1682070427/streetcollege/anna_screen_dedh69.png"
   },
   {
     "name": "Caro",
-    "title": "Dozent*innen"
+    "title": "Dozent*innen",
+    "url": "https://res.cloudinary.com/dsn2mqihi/image/upload/v1682070429/streetcollege/caro_screen_v6vll3.png"
   },
   {
-    "name": "Clara",
-    "title": "Dozent*innen"
+    "name": "Tine",
+    "title": "Sozialarbeiter*innen",
+    "url": "https://res.cloudinary.com/dsn2mqihi/image/upload/v1682070433/streetcollege/tine_screen_fegdr6.png"
   },
   {
     "name": "Eike",
-    "title": "Dozent*innen"
+    "title": "Dozent*innen",
+    "url": "https://res.cloudinary.com/dsn2mqihi/image/upload/v1682071103/streetcollege/eike_screen_k34xjr.png"
   },
   {
     "name": "Brian",
-    "title": "Dozent*innen"
+    "title": "Dozent*innen",
+    "url": "https://res.cloudinary.com/dsn2mqihi/image/upload/v1682070434/streetcollege/brian_screen_avj8vm.png"
   }
 ]
