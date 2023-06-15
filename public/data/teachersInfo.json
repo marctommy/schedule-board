@@ -18,19 +18,19 @@
   {
     "name": "Kai",
     "title": "Dozent*innen",
-    "subject": "Mathe, PW",
+    "subject": "Mathe, Politische Bildung",
     "url": "https://res.cloudinary.com/dsn2mqihi/image/upload/v1682070430/streetcollege/kai_screen_q5yyjc.png"
   },
   {
     "name": "Benny",
     "title": "Dozent*innen",
-    "subject": "Mathe, PW",
+    "subject": "Deutsch, Mathe",
     "url": "https://res.cloudinary.com/dsn2mqihi/image/upload/v1682071105/streetcollege/benny_screen_dfaan4.png"
   },
   {
     "name": "Johanna",
     "title": "Dozent*innen",
-    "subject": "Mathe, PW",
+    "subject": "Mathe, Physik, Englisch",
     "url": "https://res.cloudinary.com/dsn2mqihi/image/upload/v1682070436/streetcollege/johanna_screen_xzio1v.png"
   },
   {
@@ -58,5 +58,20 @@
     "name": "Brian",
     "title": "Dozent*innen",
     "url": "https://res.cloudinary.com/dsn2mqihi/image/upload/v1682070434/streetcollege/brian_screen_avj8vm.png"
+  },
+  {
+    "name": "Hannah",
+    "title": "Sozialarbeiter*innen",
+    "url": "https://res.cloudinary.com/dsn2mqihi/image/upload/v1682076654/streetcollege/hannah_screen_j1vlr5.png"
+  },
+  {
+    "name": "Mohammed",
+    "title": "Dozent*innen",
+    "url": "https://res.cloudinary.com/dsn2mqihi/image/upload/v1682078042/streetcollege/mohammed_screen_rvvddm.png"
+  },
+  {
+    "name": "Oli",
+    "title": "Dozent*innen",
+    "url": "https://res.cloudinary.com/dsn2mqihi/image/upload/v1682078045/streetcollege/oli_screen_xm76pg.png"
   }
 ]

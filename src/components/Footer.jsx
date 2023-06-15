@@ -1,15 +1,11 @@
 import React from "react";
 import styles from "./Header.module.css";
-
+import slogan from "../assets/slogan.png";
 export const Footer = () => {
   return (
-    <div className={styles.footer}>
+    <div className={styles.slogan}>
       <center>
-        <h4>MACH </h4>
-        <h4>DOCH</h4>
-        <h4>WAS</h4>
-        <h4>DU</h4>
-        <h4> WILLST</h4>
+        <img className={styles.slogan} src={slogan} alt={slogan} />
       </center>
     </div>
   );

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import clock from "../assets/uhrzeit.png";
 import calendar from "../assets/kalender.png";
-import logo from "../assets/transparent_2.png";
+import logo from "../assets/transparent_logo.png";
 
 import styles from "./Header.module.css";
 

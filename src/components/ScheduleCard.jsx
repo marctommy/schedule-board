@@ -11,7 +11,7 @@ export default function Schedulecard({ items }) {
             <div className="header text-xl">
               {" "}
               {item.name}
-              <p>Uhrzeit: {item.event} Uhr </p>
+              <p>Uhrzeit: {item.event} </p>
             </div>
           </div>
         </div>

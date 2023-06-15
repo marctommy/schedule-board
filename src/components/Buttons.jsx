@@ -1,6 +1,4 @@
 import styles from "./Buttons.module.css";
-import { useState } from "react";
-
 import React from "react";
 
 export const Buttons = () => {
@@ -8,10 +6,10 @@ export const Buttons = () => {
     <div>
       {" "}
       <div className={styles.container}>
-        <button className={styles.classes}> Kurse</button>
+        <button className={styles.classes}>Kurse</button>
       </div>
       <div>
-        <button className={styles.teachers}> Leute </button>
+        <button className={styles.teachers}>Leute</button>
       </div>
     </div>
   );
