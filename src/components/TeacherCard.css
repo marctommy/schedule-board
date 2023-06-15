@@ -3,16 +3,13 @@
   flex-direction: column;
   align-items: center;
   margin: 10px;
-  background-color: rgb(215, 217, 217);
   min-width: 50px;
   max-height: 200px;
   height: 250px;
   border-radius: 20px;
-  border: solid rgb(255, 255, 255) 4px;
 }
 
 .img-container {
-  width: 100%;
   height: 150px;
   border-radius: 20px;
   margin-top: 0px;
@@ -65,7 +62,7 @@ img {
 
 .selector-button {
   padding: 18px;
-  background-color: white;
+
   border-radius: 40px;
 }
 
