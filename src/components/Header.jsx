@@ -11,8 +11,6 @@ export default function Header() {
       <div className={styles.time}>
         <DateTime />
       </div>
-      <Footer />
-      <Paperplane />
     </div>
   );
 }

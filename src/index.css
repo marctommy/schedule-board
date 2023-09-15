@@ -8,14 +8,13 @@ body {
 
   background: rgb(185, 213, 174);
   background: linear-gradient(
-    236deg,
-    rgb(41, 223, 247) 10%,
+    136deg,
+    #08dff9 50%,
 
-    rgba(84, 84, 84, 1) 100%
+    #f3f3f3 100%
   );
 }
-
-code {
+å code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }

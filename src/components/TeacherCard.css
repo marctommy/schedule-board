@@ -57,6 +57,7 @@ img {
 }
 
 .list-container {
+  overflow: visible;
   padding-top: 10px;
 }
 
